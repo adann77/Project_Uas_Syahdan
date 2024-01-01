@@ -25,11 +25,11 @@
 
 
               ?>
-                <table class="table table-bordered">
+                <table class="table table-bordered"  >
                     <thead class="text-center">
                         <tr>
                             <th>No</th>
-                            <th>Nama User </th>
+                            <th>Nama User</th>
                             <th>Username </th>
                             <th>Password</th>
                             <th>Level</th>
@@ -95,17 +95,17 @@
             ?>
             <div class="form-group">
                     <label> Nama User </label>
-                    <input type="text" name="nama_user" value="<?= $value->nama_user ?>" class="form-control"  placeholder="Nama User " required>
+                    <input type="text" name="nama_user"  class="form-control"  placeholder="Nama User " required>
                   </div>
 
                   <div class="form-group">
                     <label> Username </label>
-                    <input type="text" name="username" value="<?= $value->username ?>" class="form-control"  placeholder="Username" required>
+                    <input type="text" name="username"  class="form-control"  placeholder="Username" required>
                   </div>
 
                   <div class="form-group">
                     <label> Password  </label>
-                    <input type="text" name="password" value="<?= $value->password ?>" class="form-control"  placeholder="Password " required>
+                    <input type="text" name="password"  class="form-control"  placeholder="Password " required>
                   </div>
 
                   <div class="form-group">

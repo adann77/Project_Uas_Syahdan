@@ -1,21 +1,29 @@
-     <div class="col-lg-12">
-             <div class="card card-primary card-outline">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up the bulk of the card's
-                  content.
-                </p>
-              </div>
-            </div>
-          </div>
-         
+<div class="col-lg-6 col-6">
+    <!-- small box -->
+    <div class="small-box bg-success">
+        <div class="inner">
+            <h3><?= $total_barang ?></h3>
+            <p>Barang</p>
         </div>
-        <!-- /.row -->
-      </div><!-- /.container-fluid -->
+        <div class="icon">
+            <i class="fas fa-cubes"></i>
+        </div>
+        <a href="<?= base_url('barang')?>" class="small-box-footer">Info lebih lanjut <i class="fas fa-arrow-circle-right"></i></a>
+        <p class="mt-2">Kelola inventaris Anda dengan mudah. Pantau produk Anda dan buat keputusan yang lebih baik.</p>
     </div>
-    <!-- /.content -->
-  </div>
-  <!-- /.content-wrapper -->
+</div>
 
+<div class="col-lg-6 col-6">
+    <!-- small box -->
+    <div class="small-box bg-danger">
+        <div class="inner">
+            <h3><?= $total_kategori ?></h3>
+            <p>Kategori</p>
+        </div>
+        <div class="icon">
+            <i class="fas fa-list"></i>
+        </div>
+        <a href="<?= base_url('kategori')?>" class="small-box-footer">Info lebih lanjut <i class="fas fa-arrow-circle-right"></i></a>
+        <p class="mt-2">Atur produk Anda ke dalam kategori untuk pemahaman yang lebih baik dan manajemen inventaris yang efisien.</p>
+    </div>
+</div>

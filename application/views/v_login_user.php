@@ -71,7 +71,7 @@
         </div>
         <div class="row">
           <div class="col-6">
-           <a href="<?= base_url() ?>" class="btn btn-success  btn-block "> Website </a>
+           <a href="<?= base_url() ?>" class="btn btn-success  btn-block "> Halaman Utama </a>
           </div>
           <!-- /.col -->
           <div class="col-6">

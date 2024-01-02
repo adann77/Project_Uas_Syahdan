@@ -1,7 +1,7 @@
 <div class="col-md-12">
             <div class="card card-primary">
               <div class="card-header">
-                <h3 class="card-title">Add Gambar Barang : <?= $barang->nama_barang ?></h3>
+                <h3 class="card-title">Add Cover gambar : <?= $barang->nama_barang ?></h3>
 
                 <div class="card-tools">
     

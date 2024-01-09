@@ -79,7 +79,7 @@
                 <?php foreach ($gambar as $key => $value) { ?>
                     <div class="col-sm-3">
                       <div class="form-group">
-                       <img src="<?= base_url('assets/gambarbarang/'.$value->gambar)?>" id= "gambar_load" width="250px" height="200px" style="margin-left:15px">
+                       <img src="<?= base_url('assets/gambarbarang/'.$value->gambar)?>" id= "gambar_load" width="200px" height="250px" style="margin-left:15px">
                       </div>
                       <p style="margin-left:15px" for="">Ket : <?=$value->ket ?>  </p>
                       <button data-toggle="modal" data-target="#delete<?= $value->id_gambar?>" class="btn btn-danger btn-xs

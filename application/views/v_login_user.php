@@ -69,7 +69,7 @@
             </div>
           </div>
         </div>
-        <div class="row">
+        <div class="row text-center">
           <div class="col-6">
            <a href="<?= base_url() ?>" class="btn btn-success  btn-block "> Halaman Utama </a>
           </div>
@@ -77,8 +77,12 @@
           <div class="col-6">
             <button type="submit" class="btn btn-primary btn-block">Log In</button>
           </div>
+        
           <!-- /.col -->
         </div>
+        <div class="mt-3 text-center">
+            <a href="<?=base_url('Auth/regis')?>" class="btn btn-primary btn-block">Register User</a>
+          </div>
         <?php echo form_close() ?> 
       
 

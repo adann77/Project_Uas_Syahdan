@@ -7,16 +7,16 @@
                   </ol>
                   <div class="carousel-inner">
                     <div class="carousel-item active">
+                      <img class="d-block w-100" src="<?= base_url() ?>assets/koko.jpg" >
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="<?= base_url() ?>assets/abg3.jpg" >
+                    </div>
+                    <div class="carousel-item">
                       <img class="d-block w-100" src="<?= base_url() ?>assets/rok.jpg" >
                     </div>
                     <div class="carousel-item">
                       <img class="d-block w-100" src="<?= base_url() ?>assets/jilbab.jpg" >
-                    </div>
-                    <div class="carousel-item">
-                      <img class="d-block w-100" src="<?= base_url() ?>assets/koko.jpg" >
-                    </div>
-                    <div class="carousel-item">
-                      <img class="d-block w-100" src="<?= base_url() ?>assets/gamis.jpg" >
                     </div>
                   </div>
                   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

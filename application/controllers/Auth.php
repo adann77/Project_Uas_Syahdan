@@ -4,6 +4,14 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Auth extends CI_Controller {
+  public function __construct()
+  {
+      parent::__construct();
+      $this->load->model('m_user');
+      
+     
+
+  }
 
     public function login_user()
     {
@@ -38,7 +46,26 @@ class Auth extends CI_Controller {
         $this->user_login->logout();
 
       }
-      
+
+      public function regis(){
         
+        $this->load->view('view_regis');
+
+
+      }
+      public function add()
+    {
+
+        $data = array(
+            'nama_user' => $this->input->post('nama_user'),
+            'username' => $this->input->post('username'),
+            'password' => $this->input->post('password'),
+            'level_user' => '2'
+         );
+         $this-> m_user->add($data);
+         $this->session->set_flashdata('pesan', 'Data Berhasil Ditambahkan !!!');
+         redirect('Auth/login_user');
+         
+    }  
     }
 
